@@ -9,22 +9,33 @@ This repository showcases a variety of mini projects, each demonstrating a uniqu
 ### 🛠️ Projects Included
 
 #### [Calculator App 🧮](1-Calculator/README.md)
+![Project](1-Calculator/assets/images/project_SS.png)
 
 Perform basic arithmetic operations with ease.
 
 #### [Notes App 📝](2-Notes-App/README.md)
+![Project](2-Notes-App/assets/images/project_SS.png)
+
 Store your tasks locally and never forget what needs doing.
 
 #### [Image Slider 🖼️](3-Image-Slider/README.md)
+![Project](3-Image-Slider/assets/images/project_SS.png)
+
 Navigate through a gallery of images effortlessly.
 
 #### [Quiz App 🎯](4-Quiz-App/README.md)
+![Project](4-Quiz-App/assets/images/project_SS.png)
+
 Test your knowledge on various topics with our multiple-choice quizzes.
 
 #### [Form Validator ✅](5-Form-Validator/README.md)
+![Project](5-Form-Validator/assets/images/project_SS.png)
+
 Learn the basics of form validation and ensure your forms are robust.
 
 #### [Text to Speech Converter 🗣️](6-Text-To-Speech-Converter/README.md)
+![Project](6-Text-To-Speech-Converter/assets/images/project_SS.png)
+
 Convert text to speech using the browser's capabilities.
 
 ## 🌟 Features

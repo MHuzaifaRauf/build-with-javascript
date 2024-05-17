@@ -2,7 +2,7 @@
 var nameError = document.getElementById("name-error");
 var phoneError = document.getElementById("phone-error");
 var emailError = document.getElementById("email-error");
-var messsageError = document.getElementById("messsage-error");
+var messageError = document.getElementById("message-error");
 var submitError = document.getElementById("submit-error");
 
 // Function to validate name input
@@ -64,7 +64,7 @@ function validateEmail(){
     }
 
     // Check if email matches the pattern (basic email pattern)
-    if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]*][\.][a-z]{2,4}$/)){
+    if(!email.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/)){
         emailError.innerHTML = 'Invalid Email';
         return false;
     }
@@ -82,12 +82,12 @@ function validateMessage(){
 
     // Check if message is too short
     if(remaining > 0){
-        messsageError.innerHTML = remaining + ' more characters required';
+        messageError.innerHTML = remaining + ' more characters required';
         return true;
     }
 
     // If valid, show a checkmark
-    messsageError.innerHTML = '<i class="fas fa-check" style="color: #44e708;"></i>';
+    messageError.innerHTML = '<i class="fas fa-check" style="color: #44e708;"></i>';
     return true;
 }
 
