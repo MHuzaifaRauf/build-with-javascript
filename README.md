@@ -67,7 +67,7 @@ Convert text to speech using the browser's capabilities.
 
 ## 👥 Contributing
 
-We welcome contributions If you spot any issues or have ideas for improvement, please create an issue or submit a pull request.
+Contributions are welcome. If you spot any issues or have ideas for improvement, please create an issue or submit a pull request.
 
 ## 💡 Why These Projects?
 
